@@ -1,5 +1,9 @@
 <a href="http://imgur.com/MdMZu2A"><img src="http://i.imgur.com/MdMZu2A.jpg" title="source: imgur.com" /></a>    [Intro](https://aaronbev79.github.io/markdown/markdown_intro.html)//[Theory](https://aaronbev79.github.io/markdown/markdown_theory.html)//[History](https://aaronbev79.github.io/markdown/markdown_history.html)//[Examples](https://aaronbev79.github.io/markdown/markdown_examples.html)//[Resources](https://aaronbev79.github.io/markdown/markdown_resources.html)
 
-##The Markdown Movement: Rhetorical Velocity, Multi-Delivery, and Typesetting--TEST
+##The Markdown Movement: Resolving the Conflict between Human and Machine Readability
 
-Intro goes here
+This article should now be about conflicts between human and machine readability. Markdown tries to be the best bridge between the two, that prioritizes the writer. How does it do so?
+
+Use anecdote about Jeff Rice's edited collection:
+
+"From A to <A>" in how the "<>" mess with search algorithms. The title itself is an example of this conflict. Something as simple as including "<>" in a title conflicts with the way machines attempt to read natural languages. 
