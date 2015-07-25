@@ -1,0 +1,25 @@
+#!/bin/bash
+
+pandoc markdown_intro.mkd -s -c pandoc.css -o index.html
+pandoc markdown_theory.mkd -s -c pandoc.css -o markdown_theory.html
+pandoc markdown_history.mkd -s -c pandoc.css -o markdown_history.html
+pandoc markdown_examples.mkd -s -c pandoc.css -o markdown_examples.html
+pandoc markdown_resources.mkd -s -c pandoc.css -o markdown_resources.html
+
+#Use pandoc to create html page from markdown report.md
+#pandoc webpage.md \
+#--output index.html \
+#--css pandoc.css \
+#--smart \
+#--template template.html
+
+#Commit changes and push them to github
+#git add --all
+#git commit -m "newest update"
+#git push
+
+#Update gh-pages to match master branch for standalone github pages
+#git checkout gh-pages
+#git rebase master
+#git push origin gh-pages
+#git checkout master
