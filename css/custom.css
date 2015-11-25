@@ -10,8 +10,17 @@
 /*    margin-bottom: -15px;*/
 /*}*/
 
+body {
+    padding-top: 50px;
+}
+
 p {
     font-size: 16px;
+}
+
+.active {
+    pointer-events: none;
+    cursor: default;
 }
 
 .btn-success {
@@ -21,38 +30,36 @@ p {
     padding-right: 20px;
 }
 
-.navbar-custom {
-    background-color:#DFDFDF;
-    color:#ffffff;
-    border-radius:0;
-}
+/*.navbar-custom {*/
+/*    background-color:#DFDFDF;*/
+/*    color:#ffffff;*/
+/*    border-radius:0;*/
+/*}*/
 
-.navbar-custom .navbar-nav > li > a {
-    color:#2F4F4F;
-}
 
-.navbar-custom .navbar-nav > li > a:hover {
-    color:black;
-}
 
-.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
-    color: #ffffff;
-    background-color:transparent;
-}
-.navbar-custom .navbar-brand {
-    color:#2F4F4F;
-}
+/*.navbar-custom .navbar-nav > li > a:hover {*/
+/*    color:black;*/
+/*}*/
 
-.navbar-custom .navbar-brand:hover {
-    color:black;
-}
+/*.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {*/
+/*    color: #ffffff;*/
+/*    background-color:transparent;*/
+/*}*/
+/*.navbar-custom .navbar-brand {*/
+/*    color:#2F4F4F;*/
+/*}*/
+
+/*.navbar-custom .navbar-brand:hover {*/
+/*    color:black;*/
+/*}*/
 
 .navbar .navbar-toggle .icon-bar {
   background-color:#2F4F4F
 }
 
 .jumbotron {
-    padding-top: 95px;
+    background-color: #888888;
 }
 
 .jumbotron img {
@@ -60,28 +67,24 @@ p {
     margin-right: 20px;
 }
 
-.jumbotron p {
+.jumbotron h1 {
     font-size: 40px;
-    padding-bottom: -10px;
-    margin-bottom: -10px;
-
+    color: black;
 }
 
-.jumbotron .p small {
-    font-size: 30px;
-    padding-top: -10px;
-    margin-top: -10px;
+.jumbotron h2 {
+    font-size: 35px;
+    padding-top: -5px;
+    margin-top: -5px;
+    color: black;
+}
+
+.jumbotron p {
+    font-size: 20px;
+    color: black;
 }
 
 
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-/*.navbar-default .navbar-brand {*/
-/*    color: #2F4F4F;*/
-/*}*/
 
 /*.navbar-default .navbar-brand:hover {*/
 /*    color: black;*/
