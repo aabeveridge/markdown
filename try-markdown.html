@@ -53,7 +53,7 @@
             <div class="col-lg-1 col-lg-offset-4">
             <p></p>
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Click Here for Markdown Basics</button>
+  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Click Here for Markdown Basics</button>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -69,8 +69,8 @@
           <p>##Header</p>
           <p>###Header</p>
           <h3><b>Text Emphasis</b></h3>
-          <p><i>*Italic*</i></p>
-          <p><b>**Bold**</b></p>
+          <p>*Italic*</p>
+          <p>**Bold**</p>
           <h3><b>Links</b></h3>
           <p>[link](http://website.com)</p>
           <p>&lt;http://website.com&gt;</p>
@@ -97,7 +97,7 @@
 <!--    Markdown editor provided by: http://vuejs.org/examples/-->
     <div id="editor">
   <textarea v-model="input" debounce="300">
-#**Delete this text and write your own!**
+#**Delete this text and write/edit this page yourself!**
 #*HAVE FUN!*
   
 ##Write in Markdown on the left side and it will produced rendered HTML on the right side
@@ -111,7 +111,7 @@ Markdown is also great for creating lists:
 - List Item
 - List Item  
 
-It is also easy to add text [links](http://wikipedia.com) in-line. You can also add links like this: <http://www.wikipedia.com>  </textarea>
+It is easy to add text [links](http://wikipedia.com) in-line. You can also add links like this: <http://www.wikipedia.com>  </textarea>
   <div v-html="input | marked"></div>
 </div>
 
