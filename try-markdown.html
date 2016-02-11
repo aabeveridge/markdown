@@ -34,9 +34,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a href="index.html" class="navbar-brand"><b>The Markdown Movement</b></a>
-            </div><!--navbar header-->
+                </div><!--navbar header-->
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <a href="" class="active btn btn-default navbar-btn navbar-right">&nbsp;<b>Try Markdown</b>&nbsp;</a>
+                <a href="" class="btn btn-success navbar-btn navbar-right" data-toggle="modal" data-target="#myModal"><b>Markdown Help</b></button></a>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html"><b>Home</b></a>
                     <li><a href="history.html"><b>History</b></a>
@@ -51,17 +51,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-1 col-lg-offset-4">
-            <p></p>
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">Click Here for Markdown Basics</button>
-
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-          <h2 class="modal-title"><b>Markdown Basics</b></h2>
         </div>
         <div class="modal-body">
           <h3><b>Headers</b><h3>
@@ -93,7 +89,6 @@
     </div>
    </div>
   </div>
-<p></p>
 <!--    Markdown editor provided by: http://vuejs.org/examples/-->
     <div id="editor">
   <textarea v-model="input">
@@ -104,9 +99,11 @@
 
 Markdown can be used to easily embed pictures in a text:
 
-![](http://aaronbeveridge.com/markdown/Markdown-mark.svg1.png)
+![](http://aaronbeveridge.com/markdown/images/Markdown-mark.svg1.png)
 
-Markdown is also great for creating lists:
+* * *
+
+##Markdown is also great for creating lists:
 - List Item 
 - List Item
 - List Item  

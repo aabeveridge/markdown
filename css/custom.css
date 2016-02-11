@@ -30,6 +30,13 @@ p {
     padding-right: 20px;
 }
 
+.btn-default {
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
 /*.navbar-custom {*/
 /*    background-color:#DFDFDF;*/
 /*    color:#ffffff;*/
