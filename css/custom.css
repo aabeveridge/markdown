@@ -1,3 +1,7 @@
+body, html {
+    overflow-x: hidden;
+}
+
 /*.jumbotron {*/
 /*    position: relative;*/
 /*    background: #000 url("../images/header.jpg") center center;*/
@@ -29,6 +33,14 @@ p {
     margin-right: 20px;
     padding-right: 20px;
 }
+
+.btn-warning {
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
 
 .btn-default {
     padding-left: 20px;
