@@ -96,7 +96,7 @@
 <p></p>
 <!--    Markdown editor provided by: http://vuejs.org/examples/-->
     <div id="editor">
-  <textarea v-model="input" debounce="300">
+  <textarea v-model="input" debounce="500">
 #**Delete this text and write/edit this page yourself!**
 #*HAVE FUN!*
   
@@ -115,16 +115,6 @@ It is easy to add text [links](http://wikipedia.com) in-line. You can also add l
   <div v-html="input | marked"></div>
 </div>
   </body>
-<footer>
-<hr>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-5">
-<p>©2015 <a href="http://aaronbeveridge.com" style="color:gray;">Aaron Beveridge</a></p>
-        </div>
-    </div>
-</div>
-</footer>
         <!-- Javascript code for Bootstrap 3 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
