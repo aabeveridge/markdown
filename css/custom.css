@@ -103,6 +103,7 @@ textarea, #editor div {
 }
 
 textarea {
+  height: 100%;
   border: none;
   border-right: 1px solid #ccc;
   resize: none;
