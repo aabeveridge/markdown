@@ -99,6 +99,10 @@ p {
     color: black;
 }
 
+h3 .second-head {
+    padding-top: 25px;
+} 
+
 html, body, #editor {
   margin: 0;
   height: 100%;
