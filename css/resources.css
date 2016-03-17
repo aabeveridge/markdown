@@ -1,4 +1,30 @@
-/*CSS for Carousel edited based on this tutorial: http://codepen.io/riwakawebsitedesigns/pen/IeKbA*/
+.btn-success {
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.btn-warning {
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+
+.btn-default {
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color:#2F4F4F
+}
+
+/*CSS for Carousel revised based on this tutorial: http://codepen.io/riwakawebsitedesigns/pen/IeKbA*/
 .carousel {
     	position: relative;
     	height: 500px;

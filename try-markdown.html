@@ -41,7 +41,6 @@
                     <li><a href="index.html"><b>Home</b></a>
                     <li><a href="history.html"><b>History</b></a>
                     <li><a href="resources.html"><b>Resources</b></a>
-                    <li><a href="about.html"><b>About</b></a>
                     <li><a href="references.html"><b>References</b></a>
                 </ul>
             </div>
@@ -70,14 +69,14 @@
           <h3><b>Links</b></h3>
           <p>[link](http://website.com)</p>
           <p>&lt;http://website.com&gt;</p>
-          <h3><b>Images</b></h3> 
+          <h3><b>Images</b></h3>
           <p>![caption](http://imageurl.com)</p>
           <h3><b>Horizontal Rule</b></h3>
           <p>* * *</p>
           <h3><b>Lists</b></h3>
           <p>- First item</p>
           <p>- Second item</p>
-          <p>- Third item</p>          
+          <p>- Third item</p>
         </div>
 <!--        <div class="modal-footer">-->
 <!--          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
@@ -94,8 +93,8 @@
   <textarea v-model="input">
 #**Delete this text and write/edit this page yourself!**
 #*HAVE FUN!*
-  
-Write in Markdown on the left side and it will produced rendered HTML on the right side. This is a normal paragraph of Text. Here is another sentence. And finally, here is the last sentence. 
+
+Write in Markdown on the left side and it will produced rendered HTML on the right side. This is a normal paragraph of Text. Here is another sentence. And finally, here is the last sentence.
 
 ##Markdown can be used to easily embed pictures in a text:
 
@@ -104,9 +103,9 @@ Write in Markdown on the left side and it will produced rendered HTML on the rig
 * * *
 
 ##Markdown is also great for creating lists:
-- List Item 
 - List Item
-- List Item  
+- List Item
+- List Item
 
 It is easy to add text [links](http://wikipedia.com) in-line. You can also add links like this: <http://www.wikipedia.com>  </textarea>
   <div v-html="input | marked"></div>
