@@ -83,25 +83,25 @@ p {
 }
 
 .jumbotron h1 {
-    font-size: 40px;
+    font-size: xx-large;
     color: black;
 }
 
 .jumbotron h2 {
-    font-size: 35px;
+    font-size: xx-large;
     padding-top: -5px;
     margin-top: -5px;
     color: black;
 }
 
 .jumbotron p {
-    font-size: 20px;
+    font-size: x-large;
     color: black;
 }
 
 h3 .second-head {
     padding-top: 25px;
-} 
+}
 
 html, body, #editor {
   margin: 0;
@@ -156,4 +156,3 @@ code {
 /*small {*/
 /*    color: gray;*/
 /*}*/
-
