@@ -1,3 +1,25 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 30px;*/
+  background-color: #f5f5f5;
+}
+
+p {
+    font-size: 16px;
+}
+
 .btn-success {
     padding-left: 20px;
     margin-left: 20px;
@@ -28,6 +50,7 @@
 .carousel {
     	position: relative;
     	height: 500px;
+      margin-bottom: 120px;
 }
 
 .carousel-inner {
@@ -231,42 +254,6 @@
   	}
 }
 
-
 .black {
   color:black;
 }
-
-
-/*.carousel-control.left,
-.carousel-control.right {
-    background-image: none;
-}
-.carousel-controls{
- position:relative;
-  width:500px;
-	padding-top: 50px;
-  margin:0 auto;
-}
-
-.carousel-indicators {
-  top: 70;
-}
-
-.carousel-indicators .li {
-  color:black;
-}
-
-.carousel-inner {
-   margin-bottom:50px;
-}
-
-/*.carousel-indicators .li {
-	color:black;
-}*/
-
-
-
-/*.ontop {
-	position: absolute;
-  z-index: 2; /* integer */
-/*
