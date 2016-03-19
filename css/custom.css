@@ -5,7 +5,6 @@ html {
 
 body {
     padding-top: 50px;
-    margin-bottom: 60px;
 }
 
 /*source of footer logic: http://stackoverflow.com/questions/21324395/bootstrap-3-flush-footer-to-bottom-not-fixed*/
@@ -49,30 +48,6 @@ p {
     margin-right: 20px;
     padding-right: 20px;
 }
-
-/*.navbar-custom {*/
-/*    background-color:#DFDFDF;*/
-/*    color:#ffffff;*/
-/*    border-radius:0;*/
-/*}*/
-
-
-
-/*.navbar-custom .navbar-nav > li > a:hover {*/
-/*    color:black;*/
-/*}*/
-
-/*.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {*/
-/*    color: #ffffff;*/
-/*    background-color:transparent;*/
-/*}*/
-/*.navbar-custom .navbar-brand {*/
-/*    color:#2F4F4F;*/
-/*}*/
-
-/*.navbar-custom .navbar-brand:hover {*/
-/*    color:black;*/
-/*}*/
 
 .navbar .navbar-toggle .icon-bar {
   background-color:#2F4F4F
@@ -140,24 +115,3 @@ textarea {
 code {
   color: #f66;
 }
-
-
-/*.navbar-default .navbar-brand:hover {*/
-/*    color: black;*/
-/*}*/
-
-/*.nav .navbar-default .navbar-nav:hover {*/
-/*    color: black;*/
-/*}*/
-
-/*ul.nav a { */
-/*    color: #2F4F4F !important; */
-/*}*/
-
-/*ul.nav a:hover { */
-/*    color: black !important; */
-/*}*/
-
-/*small {*/
-/*    color: gray;*/
-/*}*/
